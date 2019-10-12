@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Swinject",
     products: [
-        .library(name: "Swinject", targets: ["Swinject"]),
+        .library(name: "Swinject", type: .dynamic, targets: ["Swinject"]),
     ],
     dependencies: [],
     targets: [
